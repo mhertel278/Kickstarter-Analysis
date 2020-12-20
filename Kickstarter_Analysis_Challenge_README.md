@@ -2,7 +2,7 @@
 
 ## Overview of Project
 
-Louise has started a Kickstarter campaign to fund her play *Fever*.  The campaign quickly came close to reaching its fundraising goal. The purpose of the following analysis is to provide Louise with insights into other kickstarter campaigns' success based on launch dates and fundraising goals.  The analysis was performed on data in an excel spreadsheet for several kickstarter campaigns.  The data for each campaign included details such as Project Name, goal and pledged amounts, country in which the campaign took place, the outcome of the campaign, the launch and deadline dates, and category and subcategory of the project in the campaign.  
+Louise has started a Kickstarter campaign to fund her play *Fever*.  The campaign quickly came close to reaching its fundraising goal. The purpose of the following analysis is to provide Louise with insights into other kickstarter campaigns' success based on launch dates and fundraising goals, possibly providing insights into why *Fever* ultimately fell short of its goal.  The analysis was performed on data in an excel spreadsheet for several kickstarter campaigns.  The data for each campaign included details such as Project Name, goal and pledged amounts, country in which the campaign took place, the outcome of the campaign, the launch and deadline dates, and category and subcategory of the project in the campaign.  
 
 ## Analysis and Challenges
 
