@@ -19,6 +19,11 @@ I filtered the table to display only projects in the Theater Parent Category.  T
 
 ### Analysis of Outcomes Based on Goals
 
+I then focused on how the amount of a campaign goal affected the campaign outcome.  I added a new worksheet to the workbook and created a table with ranges for the dollar goal amount of campaigns.  ![](resources/Table_Outcomes_vs_Goals.png)
+I used the CountIfs function to populate the 'Number Successful', 'Number Failed', and 'Number Canceled' columns of the table.  For a given cell of the table, a campaign from the original data set in the Kickstarter Analysis worksheet would be counted by the CountIfs function if: it's goal fell within the range listed on that row, it's outcome matched the column, and the project's subcategory was *Plays*.  I then used these totals to calculate the percentage of campaigns within each range that were Successful, Failed, or were Canceled.  I created a chart to visualize the percentage of each outcome as goal amount increased to shed insight on how the goal amount would influence a project's success.
+![](Outcomes_vs_Goals.png)
+
+
 ### Challenges and Difficulties Encountered
 
 ## Results
