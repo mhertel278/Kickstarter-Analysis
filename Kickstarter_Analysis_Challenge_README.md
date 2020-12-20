@@ -58,13 +58,21 @@ Both mistakes could result in campaigns being counted in the wrong range, or bei
 
 ## Results
 
-- The Outcomes based on Launch Date analysis showed that a majority of Kickstarter campaigns for theater projects were successful regardless of the month in which the campaign was launched.  Furthermore, the number of successful campaigns increases substantially for projects launching in May and June, with the trend then tapering down through the remaining months of the year.  While the number of failed campaigns also increases in May, the increase in successfuly campaigns is much greater.  
+- What are two conclusions you can draw about the Outcomes based on Launch Date?
 
-We can conclude that while theater campaigns in general tend to be successful, those launched in May and June have the greatest chance of meeting their fundraising goals.
-Becaus 
+The Outcomes based on Launch Date analysis showed that a majority of Kickstarter campaigns for theater projects were successful regardless of the month in which the campaign was launched.  Furthermore, the number of successful campaigns increases substantially for projects launching in May and June, with the trend then tapering down through the remaining months of the year.  While the number of failed campaigns also increases in May, the increase in successfuly campaigns is much greater.  
+
+I can thus conclude that while theater campaigns in general tend to be successful, those launched in May and June have the greatest chance of meeting their fundraising goals.  
+
+Louise's project *Fever* launched in June, but it failed.  Because campaigns launched in June were typically more likely to succeed, I can also conclude that the launch date of Louise's campaign for *Fever* was not the reason the campaign failed.
 
 - What can you conclude about the Outcomes based on Goals?
 
+The analysis showed that campaigns in the Plays subcategory became less likely to succeed as the the fundraising goal increased, in fact becoming much more likely to fail as the goal increased, at least until the the goal amount reached $35,000 or more.  At this point outcomes become more inconsistent.  However, the number of campaigns who's goal was greater than $35,000 is very low compared to the number of campaigns below that amount, so it is difficult to draw conclusions about campaigns with large goals from such a small sample in that goal range.  
+
+For campaigns with goals below $35,000, I can conclude that a campaign's chance of success greatly diminishes as its goal increases.  Louise's fundraising goal is within the lowest range analyzed, which should have given it a good chance of success, so the failure of Louise's campaign is likely not due to the goal amount.
+
 - What are some limitations of this dataset?
+
 
 - What are some other possible tables and/or graphs that we could create?
