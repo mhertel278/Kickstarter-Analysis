@@ -22,7 +22,7 @@ I added additional columns to the spreadsheet and used the Text to Columns featu
 
 In order to examine how launch date affected the outcomes of Theater projects, I created a pivot table from the full data set. 
 
-![](resources/pivot_table.png)
+![](resources/Pivot_Table.png)
 
 I filtered the table to display only projects in the Theater Parent Category.  The month in which campaigns launched regardless of year are listed in the rows of the table, while the outcomes Successful, Failed, and Canceled are the column headers.  The values in the table show the count of Successful, Failed, and Canceled campaigns launched in each month of the year.  From this table I then created a chart to quickly visualize how the outcomes of campaigns differ throughout the year.  
 
