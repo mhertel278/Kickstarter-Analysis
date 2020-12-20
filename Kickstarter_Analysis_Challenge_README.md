@@ -47,6 +47,8 @@ The first issue in doing the analysis was that the dates for campaign launches a
 
 In order to analyze the effect of launch date on campaign outcomes, I first used the Date function to convert the timestamps to readable dates.
 
+![](resources/Date_format_conversion.png)
+
 Another challenge arose in creating the table for the analysis of outcomes based on goals.  Because of how many ranges the goal amounts were split into, it became easy to make mistakes in typing the ranges into the row lables-either mislabelling a row or omitting a desired range.  
 ![](resources/Goal_ranges.png)
 
