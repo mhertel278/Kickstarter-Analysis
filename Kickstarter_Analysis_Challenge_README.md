@@ -2,10 +2,10 @@
 
 ## Overview of Project
 
-	Louise has started a Kickstarter campaign to fund her play *Fever*.  The campaign has quickly come close to reaching its fundraising goal.
-In order to provide Louise with insights into the likelyhood of her campaign reaching its goal, I have analyzed data on several Kickstarter campaigns.  The data included for each campaign included Project Name, goal and pledged amounts, country in which the campaign took place, the outcome of the campaign, the launch and deadline dates, and category and subcategory of the project in the campaign.  
+	Louise has started a Kickstarter campaign to fund her play *Fever*.  The campaign has quickly come close to reaching its fundraising goal. In order to provide Louise with insights into the likelyhood of her campaign reaching its goal, I have analyzed data on several Kickstarter campaigns.  The data included for each campaign included Project Name, goal and pledged amounts, country in which the campaign took place, the outcome of the campaign, the launch and deadline dates, and category and subcategory of the project in the campaign.  
 
 ## Analysis and Challenges
+
 
 
 ### Analysis of Outcomes Based on Launch Date
