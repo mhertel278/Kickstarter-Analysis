@@ -50,13 +50,14 @@ In order to analyze the effect of launch date on campaign outcomes, I first used
 ![](resources/Date_format_conversion.png)
 
 Another challenge arose in creating the table for the analysis of outcomes based on goals.  Because of how many ranges the goal amounts were split into, it became easy to make mistakes in typing the ranges into the row lables-either mislabelling a row or omitting a desired range.  
+
 ![](resources/Goal_ranges.png)
 
 Similarly, the length of the CountIfs function used, and the number of times required to input it according to the different ranges allowed for similar mistakes, accidentally inputing ">" rather than ">=" when trying correspond to the ranges.  
 
 ![](resources/range_formula_excerpt.png)
 
-Both mistakes could result in campaigns being counted in the wrong range, or being omitted from the counts all together.  In order to check the accuracey of the table, I summed the total Number of campaigns for each outcome in the table.  Then, on the original worksheet, I filtered the subcategory for Plays, then for each outcome one at a time, and counted the number of campaigns shown after filtering.  If the totals did not match, I would trouble shoot to see where the error in my table was.
+Both mistakes could result in campaigns being counted in the wrong range, or being omitted from the counts all together.  In order to check the accuracey of the table, I summed the total Number of campaigns for each outcome in the table by highlighting the column in the table and checking the sum displayed at the bottom of the window.  Then, on the original worksheet, I filtered the subcategory for Plays, then for each outcome one at a time, and counted the number of campaigns shown after filtering.  If the totals did not match, I would trouble shoot to see where the error in my table was.
 
 ## Results
 
