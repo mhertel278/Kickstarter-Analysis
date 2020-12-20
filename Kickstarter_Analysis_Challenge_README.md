@@ -8,23 +8,38 @@ Louise has started a Kickstarter campaign to fund her play *Fever*.  The campaig
 
 In doing this analysis, I first examined how the time of year Kickstarter campaigns launched affected the out come of the campaigns.  Second I focused on how the amount of the campaign goals affected the outcomes.  
 
-I focused on projects in the **theater** category.  The original data set listed category and subcategory in the same column ![category_subcategory_column](resources/category_subcategory_column.png).  I added additional columns to the spreadsheet and used the Text to Columns feature to split the category and subcategory information into the columns *Parent Category* and *Subcategory*.  ![](resources/parent_sub_category_split.png)
+I focused on projects in the **theater** category.  The original data set listed category and subcategory in the same column. 
+![category_subcategory_column](resources/category_subcategory_column.png).  
+I added additional columns to the spreadsheet and used the Text to Columns feature to split the category and subcategory information into the columns *Parent Category* and *Subcategory*.  
+![](resources/parent_sub_category_split.png)
 
 
 
 ### Analysis of Outcomes Based on Launch Date
 
-In order to examine how launch date affected the outcomes of Theater projects, I created a pivot table from the full data set. ![](resources/pivot_table.png)
-I filtered the table to display only projects in the Theater Parent Category.  The month in which campaigns launched regardless of year are listed in the rows of the table, while the outcomes Successful, Failed, and Canceled are the column headers.  The values in the table show the count of Successful, Failed, and Canceled campaigns launched in each month of the year.  From this table I then created a chart to quickly visualize how the outcomes of campaigns differ throughout the year.  ![](resources/Theater_Outcomes_vs_Launch.png)
+In order to examine how launch date affected the outcomes of Theater projects, I created a pivot table from the full data set. 
+![](resources/pivot_table.png)
+I filtered the table to display only projects in the Theater Parent Category.  The month in which campaigns launched regardless of year are listed in the rows of the table, while the outcomes Successful, Failed, and Canceled are the column headers.  The values in the table show the count of Successful, Failed, and Canceled campaigns launched in each month of the year.  From this table I then created a chart to quickly visualize how the outcomes of campaigns differ throughout the year.  
+![](resources/Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
 
-I then focused on how the amount of a campaign goal affected the campaign outcome.  I added a new worksheet to the workbook and created a table with ranges for the dollar goal amount of campaigns.  ![](resources/Table_Outcomes_vs_Goals.png)
+I then focused on how the amount of a campaign goal affected the campaign outcome.  I added a new worksheet to the workbook and created a table with ranges for the dollar goal amount of campaigns.  
+![](resources/Table_Outcomes_vs_Goals.png)
 I used the CountIfs function to populate the 'Number Successful', 'Number Failed', and 'Number Canceled' columns of the table.  For a given cell of the table, a campaign from the original data set in the Kickstarter Analysis worksheet would be counted by the CountIfs function if: it's goal fell within the range listed on that row, it's outcome matched the column, and the project's subcategory was *Plays*.  I then used these totals to calculate the percentage of campaigns within each range that were Successful, Failed, or were Canceled.  I created a chart to visualize the percentage of each outcome as goal amount increased to shed insight on how the goal amount would influence a project's success.
 ![](Outcomes_vs_Goals.png)
 
 
 ### Challenges and Difficulties Encountered
+
+The first issue in doing the analysis was that the dates for campaign launches and deadlines in columns I and J of the original spreadsheet were listed as unix timestamps rather than readable dates.
+![](resources/Date_format.png)  
+In order to analyze the effect of launch date on campaign outcomes, I first used the Date function to convert the timestamps to readable dates.
+
+Another challenge arose in creating the table for the analysis of outcomes based on goals.  Because of how many ranges the goal amounts were split into, it became easy to make mistakes in typing the ranges into the row lables-either mislabelling a row or omitting a desired range.  
+![](resources/Goal_ranges.png)
+Similarly, the length of the CountIfs function used, and the number of times required to input it according to the different ranges allowed for similar mistakes, accidentally inputing ">" rather than ">=" when trying correspond to the ranges.  
+![](resources/range_formula_excerpt.png)
 
 ## Results
 
