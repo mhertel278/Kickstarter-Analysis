@@ -74,5 +74,10 @@ For campaigns with goals below $35,000, I can conclude that a campaign's chance 
 
 - What are some limitations of this dataset?
 
+This data set does not include any metrics about the popularity of the person or people launching each campaign.  For example, having more Twitter or Instagram followers may make a person more likely to attract backers for their campaigns and thus be more likely to meet their fundraising goal. 
+
+Similarly, there are now metrics on how the campaign was advertised or how many people were aware of the campaign.  Knowing how prominently a campaign was advertised and how many page views each campaign had while active could provide insights into how many people need to know about a campaign in order for it to be successful.
 
 - What are some other possible tables and/or graphs that we could create?
+
+We could create tables 
