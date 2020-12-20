@@ -2,11 +2,11 @@
 
 ## Overview of Project
 
-Louise has started a Kickstarter campaign to fund her play *Fever*.  The campaign has quickly come close to reaching its fundraising goal. In order to provide Louise with insights into the likelyhood of her campaign reaching its goal, I have analyzed data for several Kickstarter campaigns.  The data included for each campaign included Project Name, goal and pledged amounts, country in which the campaign took place, the outcome of the campaign, the launch and deadline dates, and category and subcategory of the project in the campaign.  
+Louise has started a Kickstarter campaign to fund her play *Fever*.  The campaign has quickly come close to reaching its fundraising goal. The purpose of the following analysis is to provide Louise with insights into the likelyhood of her campaign reaching its goal.  The analysis was performed on data for several kickstarter campaigns.  The data for each campaign included Project Name, goal and pledged amounts, country in which the campaign took place, the outcome of the campaign, the launch and deadline dates, and category and subcategory of the project in the campaign.  
 
 ## Analysis and Challenges
 
-**testing git pull command**
+
 
 ### Analysis of Outcomes Based on Launch Date
 
