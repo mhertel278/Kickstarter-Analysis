@@ -6,7 +6,7 @@ Louise has started a Kickstarter campaign to fund her play *Fever*.  The campaig
 
 ## Analysis and Challenges
 
-![OutcomesBasedOnLaunchDate]("C:\Users\user\Desktop\Data Bootcamp Analysis Projects\Crowdfunding Analysis\Challenge 1 Kickstarter Analysis\Kickstarter-Analysis\resoursces\Outcomes_vs_Goals.png")
+![OutcomesBasedOnLaunchDate](\resoursces\Outcomes_vs_Goals.png")
 
 ### Analysis of Outcomes Based on Launch Date
 
