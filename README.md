@@ -87,4 +87,3 @@ We could create a bar chart from the table used for the Outcomes by Goals analys
 
 We could create a table to show the mean, median, mode, and standard deviation of the number of campaign backers for different outcomes and in the different goal ranges.  This would help give insight into how many backers may be needed in order to have a good chance of meeting the campaign goal.
 
-### Does this change go through?
