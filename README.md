@@ -86,3 +86,5 @@ Similarly, there are no metrics on how the campaign was advertised or how many p
 We could create a bar chart from the table used for the Outcomes by Goals analysis to visualize how many more campaigns fall in the lower goal ranges as compared to how few are above $35,000.  We could also use a Box and Whisker graph to visualize how close the large successful goal amounts are to the mean goal amount.  These graphs would help determine if goals over a certain amount should be considered outliers.
 
 We could create a table to show the mean, median, mode, and standard deviation of the number of campaign backers for different outcomes and in the different goal ranges.  This would help give insight into how many backers may be needed in order to have a good chance of meeting the campaign goal.
+
+### Does this change go through?
